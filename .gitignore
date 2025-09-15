@@ -1,0 +1,46 @@
+# Dependencies
+/node_modules
+
+# Env files (keep example committed)
+/.env*
+!/.env.example
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Build / output
+dist/
+build/
+coverage/
+.nyc_output/
+
+# Runtime
+tmp/
+.pids
+*.pid
+*.seed
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+
+# System
+.DS_Store
+Thumbs.db
+
+# Lint / cache
+.eslintcache
+
+# Prisma (keep migrations – they should be committed)
+/prisma/dev.db-journal
+
+# Keys (do NOT commit real private keys)
+keys/*.pem
+!keys/README.md
+/generated/prisma
