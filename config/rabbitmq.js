@@ -30,7 +30,7 @@ export async function getChannel() {
     })
 
     channel = await connection.createChannel()
-    console.log('[RabbitMQ] Connected and Channel created')
+    console.log('[RabbitMQ] ✅ Connected and Channel created')
 
     return channel
   } catch (error) {
