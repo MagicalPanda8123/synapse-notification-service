@@ -1,0 +1,45 @@
+# Node.js dependencies
+node_modules
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+pnpm-debug.log
+
+# Environment files (keep secrets outside the image)
+.env
+.env.local
+.env.*.local
+
+# Keys (JWT / SSL / etc — mount them at runtime, not in image)
+keys/
+*.pem
+*.key
+
+# Logs
+logs
+*.log
+*.out
+*.err
+
+# OS / IDE cruft
+.DS_Store
+Thumbs.db
+.vscode
+.idea
+*.swp
+
+# Git
+.git
+.gitignore
+
+# Docker meta
+.dockerignore
+Dockerfile*
+
+# Prisma (ignore cache, keep migrations!)
+.prisma/
+
+# Build outputs / coverage
+dist
+build
+coverage
