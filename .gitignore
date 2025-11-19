@@ -44,3 +44,7 @@ Thumbs.db
 keys/*.pem
 !keys/README.md
 /generated/prisma
+
+/generated/prisma
+
+/generated/prisma
