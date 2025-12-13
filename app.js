@@ -25,7 +25,6 @@ app.use(urlencoded({ extended: true }))
 app.get('/health', (req, res) => {
   res.status(200).json({
     status: 'ok',
-    serviceName: config.server.serviceName,
     uptime: process.uptime(),
     memoryUsage: process.memoryUsage().rss,
     hostname: os.hostname(),
