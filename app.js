@@ -10,7 +10,7 @@ const app = express()
 
 app.use(
   cors({
-    origin: ['http://localhost:3000', 'http://localhost:3001'],
+    origin: ['http://localhost:3000', 'http://localhost:3001', 'http://frontend-alb-1914665218.ap-southeast-1.elb.amazonaws.com'],
     credentials: true,
   })
 )
