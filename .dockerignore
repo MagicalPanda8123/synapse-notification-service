@@ -6,9 +6,8 @@ yarn-error.log
 pnpm-debug.log
 
 # Environment files (keep secrets outside the image)
-.env
-.env.local
-.env.*.local
+**/.env
+**/.env.*
 
 # Keys (JWT / SSL / etc — mount them at runtime, not in image)
 keys/
